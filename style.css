@@ -2351,9 +2351,19 @@ h2 em {
   font-weight: bold;
 }
 
+.green:hover{
+  background-color: #167147 !important;
+  transform: translateY(-1px);
+}
+
 .red{
   background-color: #dc3545;
   font-weight: bold;
+}
+
+.red:hover{
+  background-color: #b02a37 !important;
+  transform: translateY(-1px);
 }
 
 .agz-btn-group .agz-btn {
