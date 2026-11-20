@@ -6,7 +6,12 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "format": "prettier --write index.html style.css main.js",
+    "format:check": "prettier --check index.html style.css main.js",
+    "lint:html": "html-validate index.html",
+    "lint:css": "stylelint style.css",
+    "lint": "npm run format:check && npm run lint:html && npm run lint:css"
   },
   "devDependencies": {
     "vite": "^6.0.0"
